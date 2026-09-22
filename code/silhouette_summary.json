@@ -1,0 +1,12 @@
+{
+  "n": 160,
+  "accuracy": 0.7125,
+  "avg_confidence": 0.5810542143881321,
+  "per_class_accuracy": {
+    "Buffalo": 0.55,
+    "Elephant": 0.925,
+    "Rhino": 0.375,
+    "Zebra": 1.0
+  },
+  "edge_threshold": 40
+}

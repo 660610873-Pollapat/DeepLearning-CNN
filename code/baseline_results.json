@@ -1,0 +1,77 @@
+{
+  "test_accuracy": 0.9883333333333333,
+  "test_macro_f1": 0.9883439619401425,
+  "per_class_report": {
+    "Buffalo": {
+      "precision": 0.9866666666666667,
+      "recall": 0.9866666666666667,
+      "f1-score": 0.9866666666666667,
+      "support": 150.0
+    },
+    "Elephant": {
+      "precision": 0.9933774834437086,
+      "recall": 1.0,
+      "f1-score": 0.9966777408637874,
+      "support": 150.0
+    },
+    "Rhino": {
+      "precision": 0.9736842105263158,
+      "recall": 0.9866666666666667,
+      "f1-score": 0.9801324503311258,
+      "support": 150.0
+    },
+    "Zebra": {
+      "precision": 1.0,
+      "recall": 0.98,
+      "f1-score": 0.98989898989899,
+      "support": 150.0
+    },
+    "accuracy": 0.9883333333333333,
+    "macro avg": {
+      "precision": 0.9884320901591728,
+      "recall": 0.9883333333333334,
+      "f1-score": 0.9883439619401425,
+      "support": 600.0
+    },
+    "weighted avg": {
+      "precision": 0.9884320901591728,
+      "recall": 0.9883333333333333,
+      "f1-score": 0.9883439619401425,
+      "support": 600.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      148,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      150,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      148,
+      0
+    ],
+    [
+      1,
+      0,
+      2,
+      147
+    ]
+  ],
+  "classes": [
+    "Buffalo",
+    "Elephant",
+    "Rhino",
+    "Zebra"
+  ],
+  "best_val_loss": 0.015186642676902314,
+  "seed": 42
+}
